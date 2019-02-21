@@ -29,7 +29,17 @@
   * Goal is to predict the test data  
 
 ### 8. Predict the future  
-  * User other data sets to make predictions
+  * User other data sets to make predictions  
+
+-----------
+
+
+# Why Tensorflow? What are tensors?  
+  * Vector is a one-dimensional tensor  
+  * Matrix is a two-dimensional tensor  
+  * Tensor is a three-dimensional tensor  
+![alt text](https://github.com/shaunc44/tensorflow/blob/master/img/tensors.jpg)
+
 
 
 
