@@ -15,7 +15,7 @@
   * Input layer >> Hidden layer >> Output layer  
   * Deep learning refers to multiple hidden layers  
   * More hidden layers takes longer to train the neural network  
-![alt text](https://raw.githubusercontent.com/shaunc44/tensorflow/blob/master/img/neural-network.jpg)  
+![alt text](https://github.com/shaunc44/tensorflow/blob/master/img/neural-network.jpg)  
 6. Train the model  
   * Training the model refers to the calculation of connections between the input layer and hidden layer  
   * **Adjust the weights of the inputs to make better predictions (labels)**  
