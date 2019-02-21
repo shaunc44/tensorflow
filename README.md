@@ -1,7 +1,7 @@
 # Steps to Building Your First Neural Network  
 
-1. Load your dataset  
-2. Set the features and labels  
+## 1. Load your dataset  
+### 2. Set the features and labels  
   * Features = input  
   * Label = prediction  
 3. Pre-process the dataset  
