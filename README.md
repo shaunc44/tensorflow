@@ -38,7 +38,7 @@
   * Vector is a one-dimensional tensor  
   * Matrix is a two-dimensional tensor  
   * Tensor is a three-dimensional tensor  
-![alt text](https://github.com/shaunc44/tensorflow/blob/master/img/tensors.jpg)
+![alt text](https://github.com/shaunc44/tensorflow/blob/master/img/tensors.jpeg)
 
 
 
