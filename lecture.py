@@ -25,8 +25,11 @@ Add weights and biases
 """
 import tensorflow as tf
 
+# Weight
 W = tf.Variable([0.5], tf.float32)
+# Bias
 b = tf.Variable([-0.1], tf.float32)
+# Input
 x = tf.placeholder(tf.float32)
 
 model = W * x + b
