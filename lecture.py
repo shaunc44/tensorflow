@@ -42,6 +42,28 @@ with tf.Session() as sess:
     print(output)
 
 
+"""
+Create LOSS FUNCTION
+"""
+import tensorflow as tf
+
+W = tf.Variable([0.5], tf.float32)
+b = tf.Variable([-0.1], tf.float32)
+x = tf.placeholder(tf.float32)
+
+model = W * x + b
+y = tf.placeholder(tf.float32)
+
+# Define LOSS FUNCTION - Gradient Descent
+squared_diff = tf.square(model - y)
+loss = tf.reduce_sum(squared_diff)
+
+initializer = tf.global_variables_initializer()
+
+with tf.Session() as sess:
+    sess.run(initializer)
+    print(sess.run(loss, {x: [1, 2, 3], y: [5, 6, 7]}))
+
 
 
 
